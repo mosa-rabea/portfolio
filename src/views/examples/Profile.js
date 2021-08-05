@@ -144,7 +144,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        My name is Mخsa and I am 28, I studied civil engineering at Al al-Bayt University and graduated in 2018, then I moved to commerce and worked as a manager for commercial companies, then I opened my own project and now I continue to develop myself and learn software development at the LTUC  University
+                        My name is Mosa and I am 28, I studied civil engineering at Al al-Bayt University and graduated in 2018, then I moved to commerce and worked as a manager for commercial companies, then I opened my own project and now I continue to develop myself and learn software development at the LTUC  University
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
