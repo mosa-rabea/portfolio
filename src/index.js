@@ -14,8 +14,7 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-*/
-import React from "react";
+*/import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
@@ -32,22 +31,22 @@ import Register from "views/examples/Register.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={props =><Profile {...props} /> } />
       <Route
         path="/landing-page"
-        exact
+        
         render={props => <Landing {...props} />}
       />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
+      <Route path="/login-page"  render={props => <Login {...props} />} />
       <Route
         path="/profile-page"
-        exact
-        render={props => <Profile {...props} />}
+        
+        render={props => <Profile {...props}  /> }
       />
       <Route
         path="/register-page"
-        exact
-        render={props => <Register {...props} />}
+        
+        render={props => <Index {...props} />}
       />
       <Redirect to="/" />
     </Switch>
